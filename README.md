@@ -1,0 +1,2 @@
+# newdev
+NewDev WordPress theme
