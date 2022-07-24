@@ -1,0 +1,7 @@
+.clip-path-hexagon {
+    width: calc(var(--wp--custom--grid--base) * 40);
+    margin: calc(var(--wp--custom--grid--base) * 3) auto;
+}
+.clip-path-hexagon img {
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+}

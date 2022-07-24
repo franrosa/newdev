@@ -1,0 +1,30 @@
+<style>
+    body {
+        --wp--preset--color--accent: var(--wp--preset--color--accent-about);
+    }
+</style>
+
+<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header","align":"center"} /-->
+
+<!-- wp:group {"tagName":"main","align":"full","layout":{"inherit":true},"className":"main-content"} -->
+    <main class="wp-block-group alignfull main-content">
+        <!-- wp:group {"align":"full","layout":{"inherit":true},"className":"post-header"} -->
+            <div class="wp-block-group alignfull post-header">
+                <!-- wp:group {"align":"wide","layout":{"inherit":true}} -->
+                    <div class="wp-block-group alignwide">
+                        <!-- wp:heading {"level":2,"align":"wide","layout":{"inherit":true}} -->
+                            <h2 class="wp-block-heading wp-block-post-title alignwide">I work as a <strong>web developer</strong>, and my goal is to make products <strong>honest</strong>, <strong>accessible</strong>, and <strong>inclusive</strong></h2>
+                        <!-- /wp:heading -->
+                    </div>
+                <!-- /wp:group -->
+            </div>
+        <!-- /wp:group -->
+        <!-- wp:post-content {"align":"wide","layout":{"inherit":true}} /-->
+    </main>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"calc(var(--wp--custom--grid--base) * 8)"} -->
+    <div style="height:calc(var(--wp--custom--grid--base) * 8)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer","className":"site-footer","align":"center"} /-->

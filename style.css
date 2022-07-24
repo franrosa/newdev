@@ -3,10 +3,160 @@ Theme Name: NewDev
 Theme URI: https://github.com/franrosa/newdev
 Author: Fran Rosa
 Author URI: https://franrosa.com
-Description: Strict theme for a new blog focused on using a limited set of elements
-Tags: blog, minimal, strict, austere, text-based, text-only, dev, development, code
+Description: Straightforward and visually bold block theme based on text without images. Under development, think of it as an ongoing project and not as a final product.
+Tags: blog, bold, colourful, text-based, text-only, no-images
 Version: 1.0
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: newdev
 */
+body {
+    --wp--preset--font-size--mega: calc(var(--wp--custom--grid--base)*6)
+}
+header .wp-block-site-title,
+header .wp-block-navigation,
+.post-header,
+.wp-block-post-content,
+footer {
+    padding-left: calc(var(--wp--custom--grid--base)*2);
+    padding-right: calc(var(--wp--custom--grid--base)*2);
+}
+header .wp-block-columns .wp-block-column {
+    max-width: 100%;
+}
+header .wp-block-site-title a {
+    margin-bottom: calc(var(--wp--custom--grid--base)*2);
+}
+header .site-subtitle {
+    float: right;
+    padding-right: calc(var(--wp--custom--grid--base)*2);
+    margin-top: calc((var(--wp--custom--grid--base)*-7) + var(--wp--custom--grid--base)/2);
+    position: relative;
+    z-index: 2;
+}
+header .site-subtitle a {
+    background: var(--wp--preset--color--contrast);
+    color: var(--wp--preset--color--accent);
+    font-size: var(--wp--preset--font-size--big);
+    padding: calc(var(--wp--custom--grid--base)*0.5) calc(var(--wp--custom--grid--base)*2);
+    text-decoration: none;
+}
+header .wp-block-navigation {
+    height: 100%;
+    min-height: calc(var(--wp--custom--grid--base)*10);
+}
+header .wp-block-navigation .wp-block-navigation__container {
+    justify-content: space-around;
+    height: 100%;
+}
+header .wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item__content {
+    padding: calc(var(--wp--custom--grid--base)*1) calc(var(--wp--custom--grid--base)*2);
+}
+header .wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item__content:hover,
+header .wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item__content:focus {
+    text-decoration: underline;
+    text-decoration-thickness: calc(var(--wp--custom--grid--base)/4);
+}
+header .wp-block-navigation .wp-block-navigation__container .current-menu-item .wp-block-navigation-item__content {
+    background: var(--wp--preset--color--accent);
+}
+.post-header {
+    background: var(--wp--preset--color--contrast);
+    padding: calc(var(--wp--custom--grid--base)*3) calc(var(--wp--custom--grid--base)*2) calc(var(--wp--custom--grid--base)*4);
+}
+.wp-block-post-date {
+    display: inline-block;
+    text-indent: .15em;
+}
+.wp-block-pullquote blockquote,
+.wp-block-pullquote p,
+.wp-block-pullquote.has-text-align-left p {
+    line-height: inherit;
+    font-size: inherit;
+    margin: 0;
+}
+a {
+    text-decoration-thickness: calc(var(--wp--custom--grid--base)/4);
+}
+.wp-block-post-title.posts-list-title {
+    background: transparent;
+    font-size: var(--wp--preset--font-size--big);
+    line-height: var(--wp--custom--line-height--big);
+    color: var(--wp--preset--color--contrast);
+    padding-bottom: calc(var(--wp--custom--grid--base)*0);
+}
+.wp-block-post-template .post-header,
+.wp-block-post-template .post-header .wp-block-post-title {
+    background: transparent;
+}
+.wp-block-post-template .post-header {
+    padding: calc(var(--wp--custom--grid--base)*3) calc(var(--wp--custom--grid--base)*0) calc(var(--wp--custom--grid--base)*0);
+}
+.wp-block-post-template .post-header .wp-block-post-date {
+    color: var(--wp--preset--color--contrast);
+    font-size: var(--wp--preset--font-size--normal);
+    font-weight: 400;
+    margin-bottom: calc(var(--wp--custom--grid--base)*0);
+}
+.wp-block-post-template .post-header .wp-block-post-title {
+    color: var(--wp--preset--color--contrast);
+    font-size: var(--wp--preset--font-size--huge);
+}
+.wp-block-button__link {
+    border-radius: 0;
+}
+.home .wp-block-post-content p {
+    font-size: var(--wp--preset--font-size--big);
+}
+.home .wp-block-post-content p + p {
+    margin-top: calc(var(--wp--custom--grid--base)*3);
+}
+.home .wp-block-post-content .wp-block-buttons .wp-block-button .wp-block-button__link {
+    margin-top: calc(var(--wp--custom--grid--base)*5);
+}
+.wp-block-button__link,
+.wp-block-button__link:hover,
+.wp-block-button__link:focus,
+.wp-block-button__link:active,
+.wp-block-button__link:visited {
+    color: var(--wp--preset--color--contrast);
+}
+@media (max-width: 780px){
+    footer p,
+    footer p.has-text-align-left,
+    footer p.has-text-align-right {
+        text-align: center;
+    }
+}
+@media (min-width: 832px){
+    body {
+        --wp--preset--font-size--mega: calc(var(--wp--custom--grid--base)*8)
+    }
+    header {
+        background: linear-gradient(to right, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--accent) 50%, var(--wp--preset--color--background) 50%, var(--wp--preset--color--background) 100%);
+    }
+    header .wp-block-site-title,
+    .post-header {
+        padding-left: calc(var(--wp--custom--grid--base)*0);
+        padding-right: calc(var(--wp--custom--grid--base)*0);
+    }
+    header .wp-block-site-title a::after {
+        left: calc(50% - (var(--wp--custom--grid--base)*6) - 6.5em);
+    }
+    .wp-block-post-template.alignwide .wp-block-post {
+        max-width: calc(var(--wp--custom--grid--base)*100);
+    }
+    .wp-block-columns.posts-list-columns .wp-block-column {
+        margin-left: calc(var(--wp--custom--grid--base)*0) !important;
+        margin-right: calc(var(--wp--custom--grid--base)*0) !important;
+        flex-grow: 0;
+    }
+    .wp-block-columns.posts-list-columns .wp-block-column:nth-of-type(1){
+        flex-basis: 20%;
+        width: 20%;
+    }
+    .wp-block-columns.posts-list-columns .wp-block-column:nth-of-type(2){
+        flex-basis: 60%;
+        width: 60%;
+    }
+}
