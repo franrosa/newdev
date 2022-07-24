@@ -5,7 +5,7 @@ Author: Fran Rosa
 Author URI: https://franrosa.com
 Description: Straightforward and visually bold block theme based on text without images. Under development, think of it as an ongoing project and not as a final product.
 Tags: blog, bold, colourful, text-based, text-only, no-images
-Version: 1.0
+Version: 0.1
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: newdev
@@ -17,6 +17,7 @@ header .wp-block-site-title,
 header .wp-block-navigation,
 .post-header,
 .wp-block-post-content,
+.wp-block-post-template,
 footer {
     padding-left: calc(var(--wp--custom--grid--base)*2);
     padding-right: calc(var(--wp--custom--grid--base)*2);
