@@ -85,7 +85,14 @@
                             "src": [
                                 "file:./assets/fonts/PublicSans-BoldItalic.woff2"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {  
+                    "name": "iA Writer Duo",
+                    "slug": "ia-writer-duo",
+                    "fontFamily": "\"iA Writer Duo\", monospace",
+                    "fontFace": [
                         {
                             "fontFamily": "iA Writer Duo",
                             "fontWeight": "400",
@@ -317,6 +324,14 @@
                         "color": {
                             "text": "var(--wp--preset--color--contrast)"
                         }
+                    }
+                }
+            },
+            "core/image": {
+                "spacing": {
+                    "margin": {
+                        "top": "calc(var(--wp--custom--grid--base)*5)",
+                        "bottom": "calc(var(--wp--custom--grid--base)*5)"
                     }
                 }
             }
