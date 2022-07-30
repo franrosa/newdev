@@ -3,12 +3,17 @@ Theme Name: NewDev
 Theme URI: https://github.com/franrosa/newdev
 Author: Fran Rosa
 Author URI: https://franrosa.com
-Description: Straightforward and visually bold block theme based on text without images. Under development, think of it as an ongoing project and not as a final product.
-Tags: blog, bold, colourful, text-based, text-only, no-images
-Version: 0.1
+Description: NewDev is a theme originally created for "New Developments" blog by Fran Rosa. It is a visually bold theme, with high contrast and big text size, that tries to bring everything together using different accent colours and vertical rhythm based on type size.
+Tags: blog, one-column, block-styles, full-site-editing, full-width-template
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.1
+Requires PHP: 5.6
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: newdev
+
+All files, unless otherwise stated, are released under the GNU General Public License version 3.0 (https://www.gnu.org/licenses/gpl-3.0.html)
 */
 body {
     --wp--preset--font-size--mega: calc(var(--wp--custom--grid--base)*6)

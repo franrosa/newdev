@@ -30,3 +30,8 @@ function newdev_register_block_styles() {
 	}
 }
 add_action( 'after_setup_theme', 'newdev_register_block_styles' );
+
+function newdev_setup() {
+    load_theme_textdomain( 'newdev', get_template_directory() . '/languages' );
+}
+add_action( 'after_setup_theme', 'newdev_setup' );
