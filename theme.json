@@ -41,9 +41,21 @@
                     "name": "Accent (Projects)"
                 },
                 {
+                    "slug": "accent",
+                    "color": "var(--wp--preset--color--accent-home)",
+                    "name": "Accent"
+                },
+                {
                     "slug": "contrast",
                     "color": "rgb(57,40,106)",
                     "name": "Contrast"
+                }
+            ],
+            "gradients": [
+                {
+                    "slug": "50-50-accent-background",
+                    "gradient": "linear-gradient(to right, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--accent) 50%, var(--wp--preset--color--background) 50%, var(--wp--preset--color--background) 100%)",
+                    "name": "50/50 Accent/Background"
                 }
             ]
         },
