@@ -5,7 +5,7 @@ Author: Fran Rosa
 Author URI: https://franrosa.com
 Description: Straightforward and visually bold block theme based on text without images. Under development, think of it as an ongoing project and not as a final product.
 Tags: blog, bold, colourful, text-based, text-only, no-images
-Version: 0.1
+Version: 0.1.1
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: newdev
@@ -28,19 +28,18 @@ header .wp-block-columns .wp-block-column {
 header .wp-block-site-title a {
     margin-bottom: calc(var(--wp--custom--grid--base)*2);
 }
-header .site-subtitle {
+header .wp-block-site-tagline {
     float: right;
-    padding-right: calc(var(--wp--custom--grid--base)*2);
-    margin-top: calc((var(--wp--custom--grid--base)*-7) + var(--wp--custom--grid--base)/2);
     position: relative;
     z-index: 2;
-}
-header .site-subtitle a {
     background: var(--wp--preset--color--contrast);
     color: var(--wp--preset--color--accent);
     font-size: var(--wp--preset--font-size--big);
-    padding: calc(var(--wp--custom--grid--base)*0.5) calc(var(--wp--custom--grid--base)*2);
-    text-decoration: none;
+    line-height: var(--wp--custom--line-height--big);
+    font-weight: 700;
+    margin-right: calc(var(--wp--custom--grid--base)*2);
+    margin-top: calc((var(--wp--custom--grid--base)*-7) + var(--wp--custom--grid--base)/2);
+    padding: calc(var(--wp--custom--grid--base)/4) calc(var(--wp--custom--grid--base)*2);
 }
 header .wp-block-navigation {
     height: 100%;

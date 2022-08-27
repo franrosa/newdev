@@ -339,12 +339,27 @@
     },
     "templateParts": [
         {
-            "name": "Header",
-            "title": "Header",
+            "name": "header-side-w-menu",
+            "title": "Header side with menu",
             "area": "header"
         },
         {
-            "name": "Footer",
+            "name": "header-side",
+            "title": "Header side",
+            "area": "header"
+        },
+        {
+            "name": "header-full-w-menu",
+            "title": "Header full with menu",
+            "area": "header"
+        },
+        {
+            "name": "header-full",
+            "title": "Header full",
+            "area": "header"
+        },
+        {
+            "name": "footer",
             "title": "Footer",
             "area": "footer"
         }
