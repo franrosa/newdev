@@ -145,7 +145,7 @@ a {
     body {
         --wp--preset--font-size--mega: calc(var(--wp--custom--grid--base)*8)
     }
-    header {
+    header .has-50-50-accent-background {
         background: linear-gradient(to right, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--accent) 50%, var(--wp--preset--color--background) 50%, var(--wp--preset--color--background) 100%);
     }
     header .wp-block-site-title,
