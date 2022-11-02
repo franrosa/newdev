@@ -27,6 +27,8 @@ These typefaces are included in the assets folder, with their respective license
 
 ## Changelog
 
+- 2 November 2022
+    - Fixed `theme.json` to work properly in version 6.1.
 - 27 August 2022
     - Fixed styles on alternative head template parts.
     - Added HTML block around style tag for accent colour on templates.
