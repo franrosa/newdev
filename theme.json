@@ -227,6 +227,37 @@
                     "text": "var(--wp--preset--color--contrast)"
                 }
             },
+            "core/heading": {
+                "color": {
+                    "background": "var(--wp--preset--color--contrast)",
+                    "text": "var(--wp--preset--color--background)"
+                },
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--mega)",
+                    "fontWeight": "400",
+                    "lineHeight": "var(--wp--custom--line-height--mega)"
+                },
+                "spacing": {
+                    "padding": {
+                        "top": "calc(var(--wp--custom--grid--base)*1)",
+                        "bottom": "calc(var(--wp--custom--grid--base)*0)"
+                    },
+                    "margin": {
+                        "top": "0",
+                        "bottom": "0"
+                    }
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "inherit"
+                        },
+                        "typography": {
+                            "textDecoration": "none"
+                        }
+                    }
+                }
+            },
             "core/post-title": {
                 "color": {
                     "background": "var(--wp--preset--color--contrast)",
