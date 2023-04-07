@@ -229,12 +229,12 @@
             },
             "core/heading": {
                 "color": {
-                    "text": "var(--wp--preset--color--contrast)"
+                    "text": "inherit"
                 },
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--mega)",
+                    "fontSize": "var(--wp--preset--font-size--big)",
                     "fontWeight": "400",
-                    "lineHeight": "var(--wp--custom--line-height--mega)"
+                    "lineHeight": "var(--wp--custom--line-height--big)"
                 },
                 "spacing": {
                     "padding": {
