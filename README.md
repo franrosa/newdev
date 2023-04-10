@@ -27,6 +27,8 @@ These typefaces are included in the assets folder, with their respective license
 
 ## Changelog
 
+- 10 April 2023
+    - Added styles for heading blocks inside post content
 - 2 November 2022
     - Fixed `theme.json` to work properly in version 6.1.
 - 27 August 2022

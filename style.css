@@ -64,9 +64,11 @@ header .wp-block-navigation .wp-block-navigation__container .current-menu-item .
     background: var(--wp--preset--color--contrast);
     padding: calc(var(--wp--custom--grid--base)*3) calc(var(--wp--custom--grid--base)*2) calc(var(--wp--custom--grid--base)*4);
 }
-.post-header .wp-block-post-title {
+.post-header .wp-block-post-title,
+.post-header .wp-block-heading {
     background: var(--wp--preset--color--contrast);
     color: var(--wp--preset--color--background);
+    font-size: var(--wp--preset--font-size--mega);
 }
 .wp-block-post-date {
     display: inline-block;
