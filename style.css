@@ -69,6 +69,7 @@ header .wp-block-navigation .wp-block-navigation__container .current-menu-item .
     background: var(--wp--preset--color--contrast);
     color: var(--wp--preset--color--background);
     font-size: var(--wp--preset--font-size--mega);
+    margin-top: calc(var(--wp--custom--grid--base)*0);
 }
 .wp-block-post-date {
     display: inline-block;
